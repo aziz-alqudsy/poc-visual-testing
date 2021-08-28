@@ -1,4 +1,5 @@
 # poc-visual-testing
+The proof of concept visual testing.
 ## prerequisite
 1. create virtual environment
 ```sh
