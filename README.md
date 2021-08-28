@@ -1,5 +1,5 @@
 # poc-visual-testing
-The proof of concept visual testing.
+The proof of concept visual testing using python.
 ## prerequisite
 1. create virtual environment
 ```sh
