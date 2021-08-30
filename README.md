@@ -1,4 +1,5 @@
 # poc-visual-testing
+The proof of concept visual testing using python.
 ## prerequisite
 1. create virtual environment
 ```sh
@@ -17,3 +18,6 @@ $ pip freeze > requirements.txt
 ```sh
 $ python -m pytest  -sv --html reports/report.html
 ```
+
+## result
+Check image in `./screenshots/grid_registerpage.png`. on the red grid is the different element compares to production page.
