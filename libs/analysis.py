@@ -1,4 +1,3 @@
-from os import scandir
 from PIL import Image, ImageDraw
 
 class Analysis():
@@ -37,7 +36,7 @@ class Analysis():
         region_total = 0
 
         # This is the sensitivity factor, the larger it is the less sensitive the comparison
-        factor = 100
+        factor = 100000
 
         # scanning coordinate
         for coordinateY in range(y, y+height):
@@ -46,6 +45,6 @@ class Analysis():
                     pixel = image.getpixel((coordinateX, coordinateY))
                     region_total += sum(pixel)/4
                 except:
-                    return "Sorry, can't get pixel coordinate!"
+                    return
 
         return region_total/factor
